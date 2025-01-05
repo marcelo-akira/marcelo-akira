@@ -1,4 +1,4 @@
-<h1>Junior Developer Intern | Oracle APEX ☕</h1>
+<h1>Junior Developer Intern | Oracle APEX</h1>
 
 <div style="display: flex; align-items: center; justify-content: flex-start; margin-left: 0;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40" />
