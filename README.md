@@ -12,7 +12,5 @@
     </a>
     <a href="mailto:marcelo.akira@trevis.com.br">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-        ![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge)
-
     </a>
 </div>
