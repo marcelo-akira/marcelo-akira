@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="815" height="392" viewBox="0 0 815 392" font-family="'SF Mono','Fira Code','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace">
+  <style>
+    text { font-size: 15px; }
+    .chrome-title { font-size: 13px; fill: #8b949e; }
+    .p  { fill: #3fb950; font-weight: 600; }   /* prompt $ */
+    .c  { fill: #e6edf3; }                      /* command */
+    .o  { fill: #8b949e; }                      /* output */
+    .kw { fill: #ff7b72; font-weight: 600; }    /* SQL keyword */
+    .id { fill: #e6edf3; }                      /* identifier */
+    .op { fill: #8b949e; }                      /* operator */
+    .st { fill: #7ee787; }                      /* string */
+
+    .type {
+      animation: typing 0.7s steps(24, end) both;
+    }
+    .show {
+      animation: reveal 0.01s linear both;
+    }
+    @keyframes typing {
+      from { clip-path: inset(0 100% 0 0); }
+      to   { clip-path: inset(0 -2% 0 0); }
+    }
+    @keyframes reveal {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .cursor {
+      animation: reveal 0.01s linear 6.4s both, blink 1.1s steps(1) 6.4s infinite;
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="813" height="390" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h789 a12 12 0 0 1 12 12 v27 h-813 z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="814" y2="40" stroke="#30363d"/>
+  <circle cx="26" cy="21" r="6.5" fill="#ff5f56"/>
+  <circle cx="48" cy="21" r="6.5" fill="#ffbd2e"/>
+  <circle cx="70" cy="21" r="6.5" fill="#27c93f"/>
+  <text x="407" y="26" text-anchor="middle" class="chrome-title">marcelo-akira ~ dev.info()</text>
+
+  <!-- $ whoami -->
+  <text x="28" y="83" class="p">$</text>
+  <text x="46" y="83" class="c type" style="animation-delay:0.4s">whoami</text>
+  <text x="28" y="110" class="o show" style="animation-delay:1.3s">Junior Developer&#160;&#160;·&#160;&#160;Brazil 🇧🇷</text>
+
+  <!-- $ dev.info() -->
+  <text x="28" y="152" class="p show" style="animation-delay:1.8s">$</text>
+  <text x="46" y="152" class="c type" style="animation-delay:1.9s">dev.info()</text>
+
+  <!-- SQL -->
+  <text x="28" y="185" xml:space="preserve" class="type" style="animation-delay:2.8s"><tspan class="kw">SELECT</tspan><tspan class="id"> </tspan><tspan class="kw">*</tspan></text>
+  <text x="28" y="211" xml:space="preserve" class="type" style="animation-delay:3.2s"><tspan class="kw">FROM</tspan><tspan class="id">   developers</tspan></text>
+  <text x="28" y="237" xml:space="preserve" class="type" style="animation-delay:3.6s"><tspan class="kw">WHERE</tspan><tspan class="id">  name    </tspan><tspan class="op">=</tspan><tspan class="st"> 'Marcelo Akira'</tspan></text>
+  <text x="28" y="263" xml:space="preserve" class="type" style="animation-delay:4.1s"><tspan class="id">  </tspan><tspan class="kw">AND</tspan><tspan class="id">  role    </tspan><tspan class="op">=</tspan><tspan class="st"> 'Junior Developer'</tspan></text>
+  <text x="28" y="289" xml:space="preserve" class="type" style="animation-delay:4.6s"><tspan class="id">  </tspan><tspan class="kw">AND</tspan><tspan class="id">  country </tspan><tspan class="op">=</tspan><tspan class="st"> 'Brazil 🇧🇷'</tspan></text>
+  <text x="28" y="315" xml:space="preserve" class="type" style="animation-delay:5.1s"><tspan class="id">  </tspan><tspan class="kw">AND</tspan><tspan class="id">  status  </tspan><tspan class="op">=</tspan><tspan class="st"> 'Learning, building, improving 🚀'</tspan><tspan class="op">;</tspan></text>
+
+  <!-- idle prompt -->
+  <text x="28" y="357" class="p show" style="animation-delay:6.3s">$</text>
+  <rect x="46" y="344" width="9" height="17" fill="#3fb950" class="cursor"/>
+</svg>
